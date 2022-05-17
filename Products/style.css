@@ -164,3 +164,9 @@
   font-size: 20px;
   border-radius: 0 0 10px 10px;
 }
+
+.card .container .card .list-group li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
