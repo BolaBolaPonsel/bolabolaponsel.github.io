@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  z-index: 2;
+  position: relative;
+}
+
 /* Navbar */
 .bgcolor.scrolled {
   background-color: rgba(0, 0, 0, 0.692);
@@ -78,6 +98,85 @@
   }
 }
 
+/* Benner */
+.bg-cover {
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 7px 22px;
+  transition: all 0.3s ease;
+}
+
+.btn-main {
+  background: linear-gradient(to right, #27bacd, #140ec1);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(29, 99, 108, 0.7), rgba(5, 3, 92, 0.7));
+  z-index: -1;
+}
+
+/* Product Brand */
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  height: 4px;
+  width: 70px;
+  background: linear-gradient(to right, #27bacd, #140ec1);
+  margin: 16px auto;
+}
+
+.service .service-img {
+  position: relative;
+}
+
+.service .service-img .icon {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(to right, #27bacd, #140ec1);
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service .service-img .icon i {
+  font-size: 36px;
+}
+
+/* Card Product */
 .daftar .container {
   width: 100%;
   min-height: 100%;
@@ -163,4 +262,19 @@
   cursor: pointer;
   font-size: 20px;
   border-radius: 0 0 10px 10px;
+}
+
+.card .container .card .list-group li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+.text-heading {
+  color: #343a40;
+}
+
+.text-para {
+  color: #1d1e1f;
 }

@@ -10,11 +10,19 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/icons.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
-    <title>bolabolaponsel | Online Store</title>
+    <title>bolabola Ponsel - Jual HP Terbaru</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -22,24 +30,25 @@
       <div class="header-inner">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor">
           <div class="container">
-            <a class="navbar-brand bi bi-shop active" href="/"></a>
+            <a class="navbar-brand bi bi-house active" href="/"> bola <span class="fw-bold">Store</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="/Products/index.html">Products</a>
+                  <a class="nav-link" aria-current="page" href="#product">Produk</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Pricing/index.html">Pricing</a>
+                  <a class="nav-link" href="/Pricing/index.html">Harga</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/about.html">About</a>
+                  <a class="nav-link" href="/about/index.html">Tentang</a>
                 </li>
               </ul>
-              <form class="d-flex" action="/Contact/index.html">
-                <button class="btn btn-outline-light" type="submit">Contact Us</button>
+              <form class="d-flex" action="/Pricing/index.html">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-main" type="submit">Search</button>
               </form>
             </div>
           </div>
@@ -61,31 +70,31 @@
           <div class="carousel-item active" style="background-image: url('/img/carousel1.jpg')">
             <div class="container">
               <h2>Vivo</h2>
-              <p>Belanja Online dan Siap Antar | Gratis Ongkir</p>
+              <p>"Menjadi perusahaan kelas dunia yang lebih sehat dan bertahan lebih lama"</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel2.jpg')">
             <div class="container">
               <h2>Samsung</h2>
-              <p>Belanja Online dan Siap Antar | Gratis Ongkir</p>
+              <p>"Samsung percaya bahwa mewujudkan nilai-nilai yang kuat adalah kunci untuk bisnis yang baik"</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel3.jpg')">
             <div class="container">
               <h2>OPPO</h2>
-              <p>Belanja Online dan Siap Antar | Gratis Ongkir</p>
+              <p>"Kami berusaha untuk menjadi perusahaan berkelanjutan yang berkontribusi pada dunia yang lebih baik"</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel4.jpg')">
             <div class="container">
               <h2>realme</h2>
-              <p>Belanja Online dan Siap Antar | Gratis Ongkir</p>
+              <p>"Menjadi perusahaan yang inovatif dan berkembang"</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel5.jpg')">
             <div class="container">
               <h2>Xiaomi</h2>
-              <p>Belanja Online dan Siap Antar | Gratis Ongkir</p>
+              <p>"Selalu percaya bahwa sesuatu yang luar biasa bisa segera terjadi"</p>
             </div>
           </div>
         </div>
@@ -100,64 +109,62 @@
       </div>
     </section>
 
-    <!-- About -->
-    <section class="p-2">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md">
-            <div class="card bg-secondary text-light">
-              <div class="card-body text-center">
-                <div class="h1 mb-2">
-                  <i class="#"></i>
-                </div>
-                <h3 class="card-title">BOLA_BOLA.COM</h3>
-                <p class="card-text">Kami Menyediakan Bermacam Model Smartphone Anda Hanya Dengan Belanja di Rumah</p>
-                <a href="/Contact/index.html" class="btn btn-primary">Hubungi Kami</a>
-              </div>
-            </div>
+    <!-- Banner -->
+    <section id="wrapper" class="bg-cover hero-section" style="background-image: url(/img/banner.jpg)">
+      <div class="overlay"></div>
+      <div class="container text-white text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4">bolabola-Ponsel<br />Web Store</h1>
+            <p class="my-4">Toko yang menyediakan bermacam brand Handphone-Pintar dan ber Garansi Resmi<br />Jika berminat kami Siap Antar dengan tanpa biaya "Ongkir Gratis"</p>
+            <a href="#" class="btn btn-main">Mulai Hubungi</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Boxs -->
-    <section class="p-5">
+    <!-- Product -->
+    <section id="product" class="text-center p-5">
       <div class="container">
-        <div class="row text-center g-4">
-          <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
-                <div class="h1 mb-2">
-                  <i class="bi bi-phone"></i>
-                </div>
-                <h3 class="card-title">Smartphone</h3>
-                <p class="card-text">Dengan Banyak Pilihan dan Kebutuhan di Kisaran "Entry Level"</p>
-                <a href="/db1/index.html" class="btn btn-primary">Selengkapnya</a>
+        <div class="row">
+          <div class="col-12 section-intro text-center">
+            <h1>Macam Produk</h1>
+            <div class="divider"></div>
+            <p>Beberapa pilihan brand dari mulai harga yang terjangkau sampai tertinggi</p>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-img">
+                <img src="/img/entry.jpg" alt="" />
+                <div class="icon"><i class="icon-mobile"></i></div>
               </div>
+              <h5 class="mt-5 pt-2">"Entry Level"</h5>
+              <p>Dengan Banyak Pilihan dan Kebutuhan</p>
+              <a href="/Pricing/entrylevel/index.html" class="btn btn-main">Selengkapnya</a>
             </div>
           </div>
-          <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
-                <div class="h1 mb-2">
-                  <i class="bi bi-phone"></i>
-                </div>
-                <h3 class="card-title">Smartphone</h3>
-                <p class="card-text">Dengan Banyak Pilihan dan Kebutuhan di Kisaran "Mid Range"</p>
-                <a href="/db2/index.html" class="btn btn-primary">Selengkapnya</a>
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-img">
+                <img src="/img/mid.jpg" alt="" />
+                <div class="icon"><i class="icon-mobile"></i></div>
               </div>
+              <h5 class="mt-5 pt-2">"Mid-range"</h5>
+              <p>Dengan Banyak Pilihan dan Kebutuhan</p>
+              <a href="/Pricing/midrange/index.html" class="btn btn-main">Selengkapnya</a>
             </div>
           </div>
-          <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
-                <div class="h1 mb-2">
-                  <i class="bi bi-phone"></i>
-                </div>
-                <h3 class="card-title">Smartphone</h3>
-                <p class="card-text">Dengan Banyak Pilihan dan Kebutuhan di Kisaran "Flagship"</p>
-                <a href="/db3/index.html" class="btn btn-primary">Selengkapnya</a>
+          <div class="col-md-4">
+            <div class="service">
+              <div class="service-img">
+                <img src="/img/flag.jpg" alt="" />
+                <div class="icon"><i class="icon-mobile"></i></div>
               </div>
+              <h5 class="mt-5 pt-2">"Flagship"</h5>
+              <p>Dengan Banyak Pilihan dan Kebutuhan</p>
+              <a href="/Pricing/flagship/index.html" class="btn btn-main">Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -185,7 +192,7 @@
               <a href="#" class="text-light" style="text-decoration: none">About</a>
             </p>
             <p>
-              <a href="#" class="text-light" style="text-decoration: none">Contact Us</a>
+              <a href="#" class="text-light" style="text-decoration: none">Order</a>
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -222,6 +229,12 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript">
