@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="/css/icons.css" />
@@ -30,7 +31,7 @@
       <div class="header-inner">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor">
           <div class="container">
-            <a class="navbar-brand bi bi-house active" href="/"> bola <span class="fw-bold">Store</span></a>
+            <a class="navbar-brand icon-global active" href="/"> bola <span class="fw-bold">Store</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,9 +47,8 @@
                   <a class="nav-link" href="/about/index.html">Tentang</a>
                 </li>
               </ul>
-              <form class="d-flex" action="/Pricing/index.html">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-main" type="submit">Search</button>
+              <form class="d-flex" action="#contact">
+                <button class="btn btn-main" type="submit">Layanan</button>
               </form>
             </div>
           </div>
@@ -69,19 +69,19 @@
         <div class="carousel-inner">
           <div class="carousel-item active" style="background-image: url('/img/carousel1.jpg')">
             <div class="container">
-              <h2>Vivo</h2>
+              <h2>vivo</h2>
               <p>"Menjadi perusahaan kelas dunia yang lebih sehat dan bertahan lebih lama"</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel2.jpg')">
             <div class="container">
-              <h2>Samsung</h2>
+              <h2>SAMSUNG</h2>
               <p>"Samsung percaya bahwa mewujudkan nilai-nilai yang kuat adalah kunci untuk bisnis yang baik"</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel3.jpg')">
             <div class="container">
-              <h2>OPPO</h2>
+              <h2>oppo</h2>
               <p>"Kami berusaha untuk menjadi perusahaan berkelanjutan yang berkontribusi pada dunia yang lebih baik"</p>
             </div>
           </div>
@@ -93,7 +93,7 @@
           </div>
           <div class="carousel-item" style="background-image: url('/img/carousel5.jpg')">
             <div class="container">
-              <h2>Xiaomi</h2>
+              <h2>xiaomi</h2>
               <p>"Selalu percaya bahwa sesuatu yang luar biasa bisa segera terjadi"</p>
             </div>
           </div>
@@ -115,9 +115,9 @@
       <div class="container text-white text-center">
         <div class="row">
           <div class="col-12">
-            <h1 class="display-4">bolabola-Ponsel<br />Web Store</h1>
+            <h3 class="display-4">Web Store</h3>
             <p class="my-4">Toko yang menyediakan bermacam brand Handphone-Pintar dan ber Garansi Resmi<br />Jika berminat kami Siap Antar dengan tanpa biaya "Ongkir Gratis"</p>
-            <a href="#" class="btn btn-main">Mulai Hubungi</a>
+            <a href="#contact" class="btn btn-main">Mulai Hubungi</a>
           </div>
         </div>
       </div>
@@ -171,44 +171,108 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-secondary text-light pt-5">
+    <!-- Play Video -->
+    <section id="video" class="bg-cover hero-section" style="background-image: url(/img/banner.jpg)">
+      <div class="overlay"></div>
+      <div class="container text-white text-center">
+        <div class="row">
+          <div class="col-12 text-center pt-4">
+            <h3 class="display-6">Lihat Video</h3>
+          </div>
+          <div class="modal-body">
+            <video width="80%" controls>
+              <source src="/img/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="text-center">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12 section-intro text-center">
+            <h3 class="display-6">Kontak</h3>
+            <div class="divider"></div>
+          </div>
+        </div>
+        <div class="row gx-4 gy-5">
+          <div class="col-md-4 pb-5">
+            <div class="contact p-4">
+              <div class="person">
+                <img src="/img/person.jpg" alt="" />
+                <div class="text ms-3">
+                  <h5 class="mb-0">Manager</h5>
+                  <small>Whatsapp</small>
+                </div>
+              </div>
+              <p>Kirim</p>
+              <a href="https://wa.me/6282331724234?text=Silahkan%20Chat%20untuk%20Order" class="whatsapp"><img src="/img/whatsapp.png" alt="" style="width: 50px; height: 50px;" /></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 pb-5">
+            <div class="contact p-4">
+              <div class="person">
+                <img src="/img/person.jpg" alt="" />
+                <div class="text ms-3">
+                  <h5 class="mb-0">Promotor1</h5>
+                  <small>Whatsapp</small>
+                </div>
+              </div>
+              <p>Kirim</p>
+              <a href="https://wa.me/6287774849605?text=Silahkan%20Chat%20untuk%20Order" class="whatsapp"><img src="/img/whatsapp.png" alt="" style="width: 50px; height: 50px;" /></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 pb-5">
+            <div class="contact p-4">
+              <div class="person">
+                <img src="/img/person.jpg" alt="" />
+                <div class="text ms-3">
+                  <h5 class="mb-0">Promotor2</h5>
+                  <small>Whatsapp</small>
+                </div>
+              </div>
+              <p>Kirim</p>
+              <a href="https://wa.me/6285230159199?text=Silahkan%20Chat%20untuk%20Order" class="whatsapp"><img src="/img/whatsapp.png" alt="" style="width: 50px; height: 50px;" /></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light pt-5 pb-5">
       <div class="container text-md-left">
         <div class="row text-md-left">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-upppercase text-heading mb-4 font-weight-bolt text-warning">COMPANY NAME</h5>
-            <p>"BQ Group"</p>
-            <p>Salah Satu Perusahaan yang menyediakan berbagai macam Tekhnologi Elektronik seperti: PC, Laptop, Smartphone dll</p>
-          </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">FEATURES</h5>
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">FITUR</h5>
             <p>
-              <a href="#" class="text-light" style="text-decoration: none">Products</a>
+              <a href="#product" class="text-light" style="text-decoration: none">Produk</a>
             </p>
             <p>
-              <a href="#" class="text-light" style="text-decoration: none">Pricing</a>
+              <a href="/Pricing/index.html" class="text-light" style="text-decoration: none">Harga</a>
             </p>
             <p>
-              <a href="#" class="text-light" style="text-decoration: none">About</a>
+              <a href="/about/index.html" class="text-light" style="text-decoration: none">Tentang</a>
             </p>
             <p>
-              <a href="#" class="text-light" style="text-decoration: none">Order</a>
+              <a href="#contact" class="text-light" style="text-decoration: none">Kontak</a>
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold text-warning">ADDRESS</h5>
             <p>
-              <a href="https://goo.gl/maps/4w81fBFTVK23FbRZ6" class="text-light" style="text-decoration: none">Jl Urip Sumoharjo No 9 Pabian Sumenep Madura</a>
+              <a href="https://goo.gl/maps/4w81fBFTVK23FbRZ6" class="text-light bi bi-geo-alt" style="text-decoration: none"> Jl Urip Sumoharjo No 9 Pabian Sumenep Madura</a>
             </p>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a class="text-para" href="#" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a class="text-para" href="#" title="Whatsapp"><i class="bi bi-whatsapp" style="color: rgb(15, 91, 178);"></i></a>
               </li>
               <li class="list-inline-item">
-                <a class="text-para" href="#" title="envelope"><i class="bi bi-envelope"></i></a>
+                <a class="text-para" href="#" title="envelope"><i class="bi bi-envelope" style="color: rgb(15, 91, 178);"></i></a>
               </li>
               <li class="list-inline-item">
-                <a class="text-para" href="#" title="telephone"><i class="bi bi-telephone"></i></a>
+                <a class="text-para" href="#" title="telephone"><i class="bi bi-telephone" style="color: rgb(15, 91, 178);"></i></a>
               </li>
             </ul>
           </div>
@@ -217,14 +281,14 @@
     </footer>
 
     <!-- Copyright -->
-    <footer class="p-2 pb-2 bg-dark text-light text-center position-relative p-md-2">
+    <section class="p-2 pb-2 bg-light text-dark text-center position-relative p-md-2">
       <div class="continer">
-        <p class="lead fs-6"><span class=""></span>&copy; 2022 licensed<strong class="text-warning"> BQ Group</strong></p>
+        <p class="lead fs-6 fw-bold"><span class=""></span>&copy; 2022 licensed<strong class="text-warning"> BQ Group</strong></p>
         <a href="#" class="position-absolute bottom-0 end-0 p-4">
           <i class="bi bi-arrow-up-circle h2"></i>
         </a>
       </div>
-    </footer>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
