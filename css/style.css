@@ -196,7 +196,7 @@ section {
 }
 
 /* Card Product */
-.daftar .container {
+.list .container {
   width: 100%;
   min-height: 100%;
   background-color: rgb(240, 234, 234);
@@ -206,7 +206,7 @@ section {
   padding-bottom: 1px;
 }
 
-.daftar .container i {
+.list .container i {
   width: 100%;
   height: 100%;
   display: flex;
@@ -216,7 +216,7 @@ section {
   margin-bottom: 2%;
 }
 
-.daftar .container h3 {
+.list .container h3 {
   width: 100%;
   height: 100%;
   display: flex;
