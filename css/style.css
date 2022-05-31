@@ -36,9 +36,9 @@ section {
 }
 
 .toggler-icon {
-  width: 30px;
-  height: 3px;
-  background-color: #e74c3c;
+  width: 22px;
+  height: 1.4px;
+  background-color: #eceaea;
   display: block;
   transition: all 0.2s;
 }
@@ -187,12 +187,12 @@ section {
   transform: translateY(-5px);
 }
 
-.bx-search-alt {
+.bx-cart {
   color: rgb(156, 158, 160);
   padding-top: 20%;
 }
 
-.bx-search-alt:hover {
+.bx-cart:hover {
   color: #fff;
 }
 
