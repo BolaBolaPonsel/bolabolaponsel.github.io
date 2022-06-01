@@ -306,16 +306,17 @@ section {
 }
 
 .product-card .container .card .product-info h1 {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 25px;
   margin-bottom: 10px;
 }
 
 .product-card .container .card .list-group li {
   margin: 0;
-  padding: 0;
+  padding: 0.1rem 0;
   font-size: 13px;
   align-items: center;
+  list-style: none;
 }
 
 .product-card .container .card .btn {
@@ -332,7 +333,7 @@ section {
   color: white;
   cursor: pointer;
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .product-card .container .card .btn button:hover {
