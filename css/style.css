@@ -187,12 +187,12 @@ section {
   transform: translateY(-5px);
 }
 
-.bx-cart {
-  color: rgb(156, 158, 160);
+.bi-box-seam {
+  color: rgb(205, 206, 208);
   padding-top: 20%;
 }
 
-.bx-cart:hover {
+.bi-box-seam:hover {
   color: #fff;
 }
 
