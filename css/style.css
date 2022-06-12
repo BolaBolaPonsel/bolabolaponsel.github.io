@@ -235,8 +235,8 @@ section {
 }
 
 .service .service-img .icon {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   background: linear-gradient(to right, #27bacd, #140ec1);
   color: #fff;
   border-radius: 100px;
@@ -244,13 +244,13 @@ section {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -45px;
+  bottom: -35px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .service .service-img .icon i {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 /* Contact */
