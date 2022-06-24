@@ -17,8 +17,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="/css/style.css" />
@@ -31,39 +29,32 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header class="header">
-      <div class="header-inner">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor">
-          <div class="container">
-            <a class="navbar-brand" href="/"><img src="/src/img/logo.png" alt="logo" height="40px" /></a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="toggler-icon top-bar"></span>
-              <span class="toggler-icon middle-bar"></span>
-              <span class="toggler-icon bottom-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#products">Produk</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/src/assets/pricing.html">Harga</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/src/assets/about.html">Tentang</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Layanan</a>
-                </li>
-              </ul>
-              <form class="d-flex" action="#products">
-                <button class="btn btn-inline" style="padding: 1px 12px" type="submit"><i class="bi bi-box-seam fs-4"></i></button>
-              </form>
-            </div>
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="/"><img src="/src/img/logo.png" alt="logo" height="40px" /></a>
           </div>
-        </nav>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#products" data-after="produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/assets/pricing.html" data-after="harga">Harga</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/assets/about.html" data-after="tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" data-after="layanan">Layanan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
 
     <!-- Carousel -->
     <section id="carousel" class="carousel slide" data-bs-ride="carousel">
@@ -78,7 +69,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active" style="background-image: url('/src/img/carousel.jpg')">
           <div class="container">
-            <h2><img src="/src/img/product.png" alt="" style="height: 85px; width: 100px" /></h2>
+            <h2><img src="/src/img/new.png" alt="" style="height: 85px; width: 100px" /></h2>
             <p>"Semua yang Berkualitas & BerGaransi Resmi"</p>
           </div>
         </div>
@@ -130,7 +121,7 @@
           <h1>Tersedia Bermacam Brand <span></span></h1>
           <h1>Product Berkualitas <span></span></h1>
           <h1>Jaminan BerGaransi Resmi <span></span></h1>
-          <a href="#" type="button" class="btn btn-inline">Hubungi</a>
+          <a href="#contact" type="button" class="btn btn-inline">Mulai Order</a>
         </div>
       </div>
     </section>
@@ -143,23 +134,74 @@
           <p>Beberapa pilihan brand dari mulai harga yang terjangkau sampai tertinggi</p>
         </div>
         <div class="products-buttom">
-          <div class="products-item" data-aos="zoom-in-up">
+          <div class="products-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/undefined/multiple-smartphones.png" /></div>
             <h2>Entry Level</h2>
             <p>HP dengan spesifikasi standar yang sudah cukup untuk memenuhi kegunaan atau kebutuhan standar juga</p>
             <a href="/src/assets/entrylevel.html" type="button" class="btn btn-inline">Tampilkan</a>
           </div>
-          <div class="products-item" data-aos="zoom-in-up">
+          <div class="products-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/undefined/multiple-smartphones.png" /></div>
             <h2>"Mid-Range"</h2>
             <p>HP dengan spesifikasi naik setingkat dari Entry Level yaitu dengan harga di atasnya</p>
             <a href="/src/assets/midrange.html" type="button" class="btn btn-inline">Tampilkan</a>
           </div>
-          <div class="products-item" data-aos="zoom-in-up">
+          <div class="products-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/undefined/multiple-smartphones.png" /></div>
             <h2>Flagship</h2>
             <p>HP dengan spesifikasi High End, Sangat cocok untuk kebutuhan dalam jangka waktu yang cukup lama hingga bertahun-tahun</p>
             <a href="/src/assets/flagship.html" type="button" class="btn btn-inline">Tampilkan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand -->
+    <section id="brand">
+      <div class="brand container">
+        <div class="brand-header">
+          <h1 class="section-title">Products <span>Brand</span></h1>
+        </div>
+        <div class="all-brand">
+          <div class="brand-item">
+            <div class="brand-info">
+              <h1><img src="/src/img/vivo.png" alt="img" style="height: 40px; margin-bottom: 20px" /></h1>
+              <p>"Menjadi perusahaan kelas dunia yang lebih sehat dan bertahan lebih lama"</p>
+              <a href="/src/assets/entrylevel.html" type="button" class="btn btn-inline">Tampilkan Semua</a>
+            </div>
+            <div class="brand-img"><img src="/src/img/brand.jpg" alt="img" /></div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-info">
+              <h1><img src="/src/img/oppo.png" alt="img" style="height: 30px; margin-bottom: 20px" /></h1>
+              <p>"Kami berusaha untuk menjadi perusahaan berkelanjutan yang berkontribusi pada dunia yang lebih baik"</p>
+              <a href="/src/assets/entrylevel.html" type="button" class="btn btn-inline">Tampilkan Semua</a>
+            </div>
+            <div class="brand-img"><img src="/src/img/brand.jpg" alt="img" /></div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-info">
+              <h1><img src="/src/img/samsung.png" alt="img" style="height: 40px; margin-bottom: 20px" /></h1>
+              <p>"Samsung percaya bahwa mewujudkan nilai-nilai yang kuat adalah kunci untuk bisnis yang baik"</p>
+              <a href="/src/assets/entrylevel.html" type="button" class="btn btn-inline">Tampilkan Semua</a>
+            </div>
+            <div class="brand-img"><img src="/src/img/brand.jpg" alt="img" /></div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-info">
+              <h1><img src="/src/img/realme.png" alt="img" style="height: 55px; margin-bottom: 20px" /></h1>
+              <p>"Menjadi perusahaan yang inovatif dan berkembang"</p>
+              <a href="/src/assets/entrylevel.html" type="button" class="btn btn-inline">Tampilkan Semua</a>
+            </div>
+            <div class="brand-img"><img src="/src/img/brand.jpg" alt="img" /></div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-info">
+              <h1><img src="/src/img/xiaomi.png" alt="img" style="height: 65px; margin-bottom: 20px" /></h1>
+              <p>"Selalu percaya bahwa sesuatu yang luar biasa bisa segera terjadi"</p>
+              <a href="/src/assets/entrylevel.html" type="button" class="btn btn-inline">Tampilkan Semua</a>
+            </div>
+            <div class="brand-img"><img src="/src/img/brand.jpg" alt="img" /></div>
           </div>
         </div>
       </div>
@@ -201,21 +243,18 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="text-center">
-      <div class="container">
-        <div class="row pt-5">
-          <div class="col-12 section-intro text-center">
-            <h3 class="display-6">Layanan</h3>
-            <div class="divider"></div>
-          </div>
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>Info</span></h1>
         </div>
-        <div class="row gx-4 gy-5">
-          <div class="col-6 col-lg-3 pb-5" data-aos="zoom-in-down">
-            <div class="contact p-4">
+        <div class="row">
+          <div class="col-6 col-lg-3 pb-5">
+            <div class="contact-item">
               <div class="person">
                 <img src="/src/img/darwis.jpg" alt="" />
-                <div class="text ms-2">
-                  <h5 class="mb-0">Darwis</h5>
+                <div class="text">
+                  <h5>Darwis</h5>
                   <small>Manager</small>
                 </div>
               </div>
@@ -223,12 +262,12 @@
               <a href="https://wa.me/6282331724234?text=Silahkan%20Chat%20untuk%20Order" class="whatsapp"><img src="/src/img/whatsapp.png" alt="" style="width: 50px; height: 50px" /></a>
             </div>
           </div>
-          <div class="col-6 col-lg-3 pb-5" data-aos="zoom-in-down">
-            <div class="contact p-4">
+          <div class="col-6 col-lg-3 pb-5">
+            <div class="contact-item">
               <div class="person">
                 <img src="/src/img/ficki.jpg" alt="" />
-                <div class="text ms-2">
-                  <h5 class="mb-0">Rofiki</h5>
+                <div class="text">
+                  <h5>Rofiki</h5>
                   <small>Vivo</small>
                 </div>
               </div>
@@ -236,12 +275,12 @@
               <a href="https://wa.me/6287774849605?text=Silahkan%20Chat%20untuk%20Order" class="whatsapp"><img src="/src/img/whatsapp.png" alt="" style="width: 50px; height: 50px" /></a>
             </div>
           </div>
-          <div class="col-6 col-lg-3 pb-5" data-aos="zoom-in-up">
-            <div class="contact p-4">
+          <div class="col-6 col-lg-3 pb-5">
+            <div class="contact-item">
               <div class="person">
                 <img src="/src/img/lana.jpg" alt="" />
-                <div class="text ms-2">
-                  <h5 class="mb-0">Lana</h5>
+                <div class="text">
+                  <h5>Lana</h5>
                   <small>Oppo</small>
                 </div>
               </div>
@@ -249,12 +288,12 @@
               <a href="https://wa.me/6285230159199?text=Silahkan%20Chat%20untuk%20Order" class="whatsapp"><img src="/src/img/whatsapp.png" alt="" style="width: 50px; height: 50px" /></a>
             </div>
           </div>
-          <div class="col-6 col-lg-3 pb-5" data-aos="zoom-in-up">
-            <div class="contact p-4">
+          <div class="col-6 col-lg-3 pb-5">
+            <div class="contact-item">
               <div class="person">
                 <img src="/src/img/helmy.jpg" alt="" />
-                <div class="text ms-2">
-                  <h5 class="mb-0">Helmy</h5>
+                <div class="text">
+                  <h5>Helmy</h5>
                   <small>FL Store</small>
                 </div>
               </div>
@@ -308,7 +347,7 @@
 
     <!-- Copyright -->
     <section class="p-2 pb-2 bg-dark text-light text-center position-relative p-md-2" style="border-top: 0.3px solid rgba(102, 100, 100, 0.652)">
-      <div class="continer">
+      <div class="container">
         <p class="lead fs-6"><span class=""></span>&copy; 2022 licensed<strong class="text-warning"> BQ Group</strong></p>
         <a href="#product" class="position-absolute bottom-0 end-0 p-4">
           <i class="bi bi-arrow-up-circle h1"></i>
@@ -326,8 +365,6 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/app.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
