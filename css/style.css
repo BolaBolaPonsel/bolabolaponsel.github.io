@@ -353,7 +353,6 @@ a {
 
 #wrapper .btn:hover {
   color: black;
-  transform: translateY(-5px);
 }
 
 #wrapper .btn-inline {
@@ -510,7 +509,6 @@ a {
 
 #products .btn:hover {
   color: black;
-  transform: translateY(-5px);
 }
 
 #products .btn-inline {
@@ -623,7 +621,6 @@ a {
 
 #brand .btn:hover {
   color: black;
-  transform: translateY(-5px);
 }
 
 #brand .btn-inline {

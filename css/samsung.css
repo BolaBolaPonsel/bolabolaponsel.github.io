@@ -1,0 +1,156 @@
+/* Product Card Popup */
+.popup {
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.popup-content {
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.25);
+  opacity: 0;
+  transition: all 0.5s 0.1s;
+}
+
+.popup-close:link,
+.popup-close:visited {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 1;
+  transition: all 0.3s;
+}
+
+.popup-close:hover,
+.popup-close:active {
+  color: #555;
+}
+
+.popup-header {
+  text-align: center;
+  text-transform: capitalize;
+  color: #555;
+  margin-bottom: 36px;
+  font-size: small;
+}
+
+.popup .table {
+  text-align: justify;
+}
+
+.popup .table .text-1 {
+  text-align: center;
+}
+
+.popup-header h1 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.popup .btn {
+  width: 100%;
+}
+
+.popup .btn button {
+  padding: 3px 9px;
+  background: none;
+  background-color: rgb(0, 137, 161);
+  border: 1px solid gray;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.popup .btn button:hover {
+  background-color: rgb(141, 0, 94);
+  cursor: pointer;
+}
+
+/* a735g */
+#popup-a735g:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a735g:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* a535g */
+#popup-a535g:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a535g:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* a23 */
+#popup-a23:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a23:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* a13 */
+#popup-a13:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a13:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* m12 */
+#popup-m12:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-m12:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* a03 */
+#popup-a03:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a03:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* a03core */
+#popup-a03core:target {
+  opacity: 1;
+  visibility: visible;
+}
+#popup-a03core:target .popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
