@@ -13,6 +13,7 @@ a {
   transition: all 0.4s ease;
 }
 
+/* Title */
 #products .section-title {
   font-size: 2rem;
   font-weight: 300;
@@ -34,6 +35,11 @@ a {
   line-height: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
+}
+
+#products .section-pragraf span {
+  color: crimson;
+  font-weight: bold;
 }
 
 /* Navbar */
@@ -449,6 +455,17 @@ a {
 }
 
 #products .products-item {
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+#products .products-item:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#products .products-item {
   flex-basis: 80%;
   display: flex;
   align-items: flex-start;
@@ -859,7 +876,7 @@ a {
 }
 
 /* Card */
-.product-card .container .card {
+.product-card .card {
   overflow: hidden;
   text-align: center;
   margin-bottom: 15px;
@@ -869,49 +886,42 @@ a {
   display: flex;
 }
 
-.product-card .container .card:hover {
+.product-card .card:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   cursor: pointer;
 }
 
-.product-card .container .card h1 {
+.product-card .card h1 {
   font-size: 20px;
+  margin-bottom: 16px;
 }
 
-.product-card .container .card .product-image {
+.product-card .card .product-image {
   width: 120px;
   margin: 20px auto;
 }
 
-.product-card .container .card .product-image img {
+.product-card .card .product-image img {
   width: 100%;
   transform: 0.4s;
 }
 
-.product-card .container .card .product-image img:hover {
+.product-card .card .product-image img:hover {
   transform: scale(1.1);
 }
 
-.product-card .container .card .product-info h1 {
+.product-card .card .product-info h1 {
   font-size: 16px;
   padding: 0 25px;
   margin-bottom: 10px;
 }
 
-.product-card .container .card .list-group li {
-  margin: 0;
-  padding: 0.1rem 0;
-  font-size: 13px;
-  align-items: center;
-  list-style: none;
-}
-
-.product-card .container .card .btn {
+.product-card .card .btn {
   width: 100%;
 }
 
-.product-card .container .card .btn {
+.product-card .card .btn {
   padding: 3px 9px;
   background: none;
   background-color: rgb(0, 137, 161);
@@ -923,7 +933,7 @@ a {
   border-radius: 2px;
 }
 
-.product-card .container .card .btn:hover {
+.product-card .card .btn:hover {
   background-color: rgb(141, 0, 94);
   cursor: pointer;
 }
